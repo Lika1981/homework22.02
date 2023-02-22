@@ -1,0 +1,8 @@
+   0 touch /tmp/test.txt
+   1 cat /etc/group | tail -5 >> test.txt
+   2 vi test.txt
+   3 clear 
+   4 cat test.txt
+   5 history > history.txt
+   6 export_file /tmp/history.txt
+   7 history > /tmp/history.txt
